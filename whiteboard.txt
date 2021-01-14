@@ -1,0 +1,32 @@
+User needs to be able to choose between three different animals. Depending on which animal they pick, information about that animal will display on the page.
+
+1̶.̶ C̶r̶e̶a̶t̶e̶ t̶h̶r̶e̶e̶ d̶i̶v̶s̶ f̶o̶r̶ e̶a̶c̶h̶ a̶n̶i̶m̶a̶l̶
+2. Create three buttons within those divs that have the name of each animal
+3. Link them to the JS and create if and else statements
+
+HTML: divs and buttons DONE
+  - Turtles
+  - snakes
+  - frogs
+CSS: display: none
+JS $ hide and show
+  - if else: what to hide and show based on which selection is picked.
+
+  Turtles, snakes, Frogs
+
+  Linking buttons and hide/show function:
+
+  let inputValue = $("input:radio[name=animal]:checked").val();
+
+  if (inputValue === "turtle") {
+    $(".turtle).show();
+  } else if (inputValue === "snake") {
+    $(".snake").show();
+  } else if (inputValue === "frog") {
+    $(".frog").show();
+  } else {
+    "Please select an animal."
+  }
+
+
+

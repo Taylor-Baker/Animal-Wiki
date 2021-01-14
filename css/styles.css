@@ -1,0 +1,13 @@
+img {
+  width: 400px;
+}
+.turtle {
+  display: none;
+}
+.snake {
+  display: none;
+}
+.frog {
+  display: none;
+}
+
